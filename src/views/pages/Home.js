@@ -18,7 +18,7 @@ let Home = {
                     <div class="banner">
                         <h1>Web Developer & Blockchain Developer</h1>
                         <h3>Caio Moraes</h3>
-                        <a href="/">Formulário</a>
+                        <a href="/#/contact">Entrar em Contato</a>
                     </div>
                     <div class="info">
                         <h2>Sobre</h2>

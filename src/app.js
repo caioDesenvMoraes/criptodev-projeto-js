@@ -2,9 +2,11 @@ import Utils from "./services/Utils"
 
 import Home from "./views/pages/Home"
 import Err from "./views/pages/Err"
+import Contact from "./views/pages/Contact"
 
 let routes = {
-    "/": Home
+    "/": Home,
+    "/contact": Contact
 }
 
 const router = async () => {
