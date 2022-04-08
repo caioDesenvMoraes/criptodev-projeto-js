@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6, span, p, strong {
+    font-family: "Roboto", sans-serif;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+}
+
+/***** HEADER *****/
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 15%;
+    border-bottom: 2px solid #000070;
+}
+
+.header .wrapper-logo {
+    height: 100%;
+}
+
+.header .wrapper-logo img {
+    height: 100%;
+}
+
+.header .social-media a {
+    margin-right: 30px;
+    color: #fff;
+    padding: 10px;
+    background-color: #000070;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: 300ms;
+}
+
+.header .social-media a:hover {
+    opacity: 0.5;
+}
+
+/***** MAIN *****/
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 70%;
+    background-color: #36366b;
+    color: #fff;
+}
+
+.main .banner {
+    width: 50%;
+    text-align: center;
+}
+
+.main .banner h1 {
+    margin-bottom: 15px;
+}
+
+.main .banner h3 {
+    font-size: 25px;
+    margin-bottom: 30px;
+}
+
+.main .banner a {
+    background-color: #fff;
+    color: #36366b;
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: 300ms;
+}
+
+.main .banner a:hover {
+    opacity: 0.5;
+}
+
+.main .info {
+    width: 50%;
+    text-align: center;
+}
+
+.main .info h2 { 
+    margin-bottom: 25px;
+}
+
+/***** FOOTER *****/
+.footer {
+    height: 15%;
+    display: flex;
+    align-items: center;
+}
+
+.footer p {
+    margin-left: 20px;
+    color: #000070;
+    font-weight: bold;
+}
